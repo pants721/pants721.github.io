@@ -1,0 +1,44 @@
+html {
+    font-family: JetBrains Mono, monospace;
+}
+
+body {
+    background-color: black;    
+    color: whitesmoke;
+    /* outline: 1px solid white; */
+    padding: 50px;
+    /* padding-top: 25px; */
+}
+
+article {
+    padding-top: 50px;
+
+}
+
+#postTitle {
+    font-size: 40px;
+    margin: 0;
+    /* outline: 1px green solid; */
+}
+
+#postDate {
+    font-size: 12px;
+    margin: 0;
+    /* outline: 1px green solid; */
+}
+
+#postText {
+    font-size: 16px;
+}
+
+#backArrow {
+    display: inline;
+}
+
+.buttonNoDec {
+    text-decoration: none;
+    display: inline-flex;
+    padding: 0%;
+    color: white;
+    margin: 0px;
+}

@@ -1,0 +1,125 @@
+html {
+    font-family: JetBrains Mono, monospace;
+}
+
+body {
+    background-color: black;    
+    color: whitesmoke;
+    /* outline: 1px solid white; */
+    padding: 50px;
+    /* padding-top: 25px; */
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#contactList {
+    list-style: none;
+}
+
+.arrowButton {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+
+}
+
+.arrowButton:hover {
+    color: red;
+}
+
+#contactScrollDiv {
+    /* outline: 1px blue solid; */
+    display: inline-block;
+    width: 42.5px;
+    text-align: center;
+    align-items: center;
+}
+
+.buttonNoDec {
+    text-decoration: none;
+    display: inline-flex;
+    padding: 0%;
+    color: white;
+    margin: 0px;
+}
+
+#contactSlide {
+    font-size: 0;
+}
+
+#contactSlide button {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 0%;
+    white-space: nowrap;
+    /* outline: 1px white solid; */
+    margin: 0px;
+    font-size: 20px;
+}
+
+#mainWrap {
+    align-items: center;
+    /* border: green 1px solid; */
+    padding: 250px;
+    transform: translateY(-15%);
+}
+
+
+#wordz {
+    width: 50%;
+    /* border: white 1px solid; */
+    display: inline;
+}
+
+#wordz p {
+    text-align: center;
+}
+
+#blockedWord {
+    -webkit-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    transition: color 1s ease-out;
+    animation: whiteToBlackAnim 2s;
+    color: black;
+}
+
+#blockedWord:hover{
+    color: white;
+    transition: none;
+}
+
+#nuWord {
+    color: white;
+}
+
+@keyframes whiteToBlackAnim {
+    0%, 90% {
+        color: white;
+    }
+
+    99% {
+        color: black;
+    }
+}
+
+@keyframes nuWordAnim {
+    from {
+        color: white;
+    }
+    to {
+        color: red;
+    }
+}
+
+#backArrow {
+    display: inline;
+}
+

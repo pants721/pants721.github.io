@@ -1,0 +1,5 @@
+# NU THOUGHT
+
+the goals of the *many have nothing* in common with the goals of the *few*. we *have* seen people, not money, not class, we see *more*. a new *day is coming*, a beautiful day. *the people* have not but *will*. the power that *be* seeks to take. *free*dom is a lie repeated to us from a young age. *ideas* come to us from a god. we hope they *will* try to guide us right. find them; *lose* your disposition and you will find a divinity of humanity hard to come by. *these* gods let our fellow humans be held in *chains*. how may we *trust* them? find *yourself* questioning the establishment, *overwhelm*ed by the upset of truth that has overcome u. you are what *their establishment* fears; *nu thought*.
+
+[4, 5, 6, 14, 16, 24, 27, 28, 29, 33, 34, 38, 42, 46, 57, 66, 74, 79, 83, 96, 97, 99, 100]
