@@ -92,7 +92,7 @@ p {
 }
 
 #blockedWord:hover{
-    color: white;
+    color: #7F7F7F;
     transition: none;
 }
 
