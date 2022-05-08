@@ -11,6 +11,7 @@ const query = `{
   }
 }`
 
+// YES I KNOW ABT THE SEC VULNERABILITY JUST DONT BE AN ASSHOLE OKAY
 const fetchOptions = {
     spaceID: "yk9jwetmluj3",
     accessToken: "diAT9whNY66pniMOdb6WP4YCeAATkTswKgmCzIC64qo",
@@ -65,6 +66,17 @@ const addContentToDom = (items) => {
 
             // Add the text element to the article element
             newItemEl.appendChild(newTextEl);
+        }
+
+        if (item.image) {
+            // Create an image element
+            const newImgEl = document.createElement("img");
+            // Populate with data
+            newImgEl.src = `${item.image.url}?w=500`;
+            newImgEl.alt = item.image.description;
+
+            // Add the image element to the article element
+            newItemEl.appendChild(newImgEl);
         }
 
         // Let's append the new article element to the DOM!
