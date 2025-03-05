@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+<link rel="icon" type="image/ico" href="http://localhost:1313//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+
+
+<title>
+    
+    Pilot | nukem.dev
+    
+</title>
+
+<link rel="canonical" href="http://localhost:1313/posts/pilot/"/>
+
+<meta property="og:url" content="http://localhost:1313/posts/pilot/">
+  <meta property="og:site_name" content="nukem.dev">
+  <meta property="og:title" content="Pilot">
+  <meta property="og:description" content="Hi everyone, welcome to my website. I’ve been meaning to make a website for a long time, but I’ve always struggled with making something that’s both good looking and functional as I’m not much of a frontend guy. Because of my general lack of interest in the frontend world, I had no idea that static site generators (SSGs) existed, which make the entire process of creating a website an order of magnitude easier.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-03-03T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-03-03T00:00:00+00:00">
+    <meta property="article:tag" content="Yap">
+    <meta property="article:tag" content="Development">
+    <meta property="article:tag" content="Zola">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.42300404f9778370b77e340b9825b02021f72c5079dafcc6ab01a8456d04bef1.css" media="all">
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="auto">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">
+        <a href="http://localhost:1313/">nukem.dev</a>
+    </h1>
+
+    <div class="flex">
+        
+
+        
+        
+      
+        <p class="small ">
+            <a href="/" >
+                /home
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/posts" >
+                /posts
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/projects" >
+                /projects
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/contact" >
+                /contact
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/about" >
+                /about
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+    </header>
+
+    <main class="main">
+      
+
+
+
+
+
+<div class="breadcrumbs">
+    
+    <a href="/">Home</a>
+    <span class="breadcrumbs-separator"> / </span>
+    
+    <a href="/posts/">Posts</a>
+    <span class="breadcrumbs-separator"> / </span>
+    
+    <a href="/posts/pilot/">Pilot</a>
+</div>
+
+
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">Pilot</h1>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2024-03-03T00:00:00&#43;00:00">March 3, 2024</time>
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>Hi everyone, welcome to my website. I&rsquo;ve been meaning to make a website for a
+long time, but I&rsquo;ve always struggled with making something that&rsquo;s both good
+looking and functional as I&rsquo;m not much of a frontend guy. Because of my general
+lack of interest in the frontend world, I had no idea that static site
+generators (SSGs) existed, which make the entire process of creating a website
+an order of magnitude easier.</p>
+<p>I ended up doing some research into static site generators and found <a href="jamstack.io">Jamstack</a>,
+which is a great resource for this type of stuff. Looking through the options
+on Jamstack, <a href="https://www.getzola.org">Zola</a> caught my eye as it&rsquo;s written in
+Rust, and I am nothing if not a Rust shill. I later found out that using a
+SSG is completely independent of the language it is written in, but supporting
+Rust technology is always a win for me.</p>
+<p>Initially, Zola&rsquo;s project structure was super confusing to me (and it still
+is to an extent). There&rsquo;s the basic stuff that most SSG&rsquo;s share, like the
+directory for content, a config file, templates, and a theme, but Zola has some
+unique parts that were increasingly confusing for me. One of them was using
+markdown as a form of configuration. Most SSG&rsquo;s, like Hugo, for example, use
+some sort of configuration in their markdown files through the TOML <code>+++</code>
+section or the YAML <code>---</code> section, but Zola has mandatory markdown files that
+are (mostly) dedicated to just configuration through <code>_index.md</code> files. I still
+don&rsquo;t <em>really</em> understand it, but I understand it enough to get this site
+working. I understand that it configures the section or directory, that it&rsquo;s
+found in. For example, the <code>_index.md</code> file for the <code>/blog</code> section on this site
+looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>+++
+</span></span><span style="display:flex;"><span>+++
+</span></span></code></pre></div><p>Oh, weird. Well, usually, it would hold some configuration that dictates what
+templates the section and pages use, what the title is, etc. I suppose mine is
+empty because of the <a href="https://github.com/pants721/no-style-please">theme I&rsquo;m using</a>.
+I found this theme on Zola&rsquo;s theme page, but I had a number of personal nitpicks
+with it, so I just decided to create my own fork of it. As of right now, I have
+a few things I need to change still:</p>
+<ul>
+<li><input disabled="" type="checkbox"> Make the tab title read <code>Section :: MySite</code> instead of just <code>Section</code></li>
+<li><input disabled="" type="checkbox"> Make the dark mode not just a literal inverse of light mode</li>
+</ul>
+<p>Once I settled on a theme, the development of this site was super easy. I just
+had to fit it to the structure I wanted and then deploy it. As of the writing of
+this post, this site is being deployed using <a href="https://pages.github.com">Github Pages</a>
+and the continuous integration from my repo is being done by the very cool
+<a href="https://github.com/shalzz/zola-deploy-action">Zola deploy Github action</a>. I&rsquo;m
+super happy with how this has all turned out, and I think I&rsquo;ll be sticking with
+this for a while.</p>
+<p>There are still things I want to implement on this site that I haven&rsquo;t had the
+time to do today. Here&rsquo;s a general list that I might come back to update</p>
+<ul>
+<li><input disabled="" type="checkbox"> Create an about page so I can talk about myself</li>
+<li><input disabled="" type="checkbox"> Maybe add some images</li>
+<li><input disabled="" type="checkbox"> Add a footer</li>
+<li><input disabled="" type="checkbox"> Add a projects tab</li>
+<li><input disabled="" type="checkbox"> Get some more stuff on the contact tab</li>
+<li><input disabled="" type="checkbox"> Add a devices tab</li>
+<li><input disabled="" type="checkbox"> (long-term) Add CV</li>
+</ul>
+<p>The intended purpose of this site is mostly to write about stuff I like, which
+includes programming, computers, basketball, volleyball, philosophy, music,
+and much, much more. I have quite a lot of interests, which I&rsquo;m sure I&rsquo;ll write
+about on my &ldquo;about&rdquo; page, and I think they will be a big part of this site as
+I&rsquo;m still young enough to not need my website to be super professional. Another
+purpose of this site is to inform prospective employers about my qualifications
+and show that I am one of the few developers with the ability to read and write.</p>
+<p>I also want to use this as a place to document my academic writing. As of right now,
+I&rsquo;m a junior in high school, and I&rsquo;m currently procrastinating working on my
+IB Philosophy IA on <em>The Eternal Sunshine of the Spotless Mind</em>. I don&rsquo;t know if
+I&rsquo;ll publish that one as I&rsquo;m not too optimistic about it, but I do want to publish
+my IB Extended Essay comparing Camus&rsquo; <em>The Myth of Sisyphus</em> and another TBA
+philosophical writing about the nature of meaninglessness, and specifically how
+we as humans should handle that.</p>
+<p>That&rsquo;s about it for the introduction to this site; thanks for reading.
+To many more!</p>
+<p>-Lucas</p>
+
+    
+  </div>
+
+  
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flex">
+
+        <div class="single-pagination-prev">
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/posts/skely-2/">
+                        My old code sucks
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </main>
+  </div>
+
+  <footer>
+    
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+  </footer>
+
+  
+
+</body>
+
+<script src="/js/theme-switch.js"></script>
+<script defer src="/js/copy-code.js"></script>
+</html>

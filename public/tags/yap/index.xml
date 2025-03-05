@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yap on nukem.dev</title>
+    <link>http://localhost:1313/tags/yap/</link>
+    <description>Recent content in Yap on nukem.dev</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/yap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>on death</title>
+      <link>http://localhost:1313/posts/grace/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/grace/</guid>
+      <description>i dont think ill ever fully understand it.&#xA;ive spent my nights twisting and turning over how one moment you&amp;rsquo;re there and the next you&amp;rsquo;re just not. the sheets are all hot and horrible now and still understanding alludes me.&#xA;how wrong this is. to leave no mark in the sand, no note on the fridge, no reason why.&#xA;maybe a fool would see the long trail of sand that had been drudged through for years and scratch his head at it&amp;rsquo;s end.</description>
+    </item>
+    <item>
+      <title>The Terrifying Future</title>
+      <link>http://localhost:1313/posts/the-future/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-future/</guid>
+      <description>&amp;ldquo;I saw my life branching out before me like the green fig tree in the story. From the tip of every branch, like a fat purple fig, a wonderful future beckoned and winked&amp;hellip; I saw myself sitting in the crotch of this fig tree, starving to death, just because I couldn&amp;rsquo;t make up my mind which of the figs I would choose. I wanted each and every one of them, but choosing one meant losing all the rest, and, as I sat there, unable to decide, the figs began to wrinkle and go black, and, one by one, they plopped to the ground at my feet.</description>
+    </item>
+    <item>
+      <title>Pilot</title>
+      <link>http://localhost:1313/posts/pilot/</link>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pilot/</guid>
+      <description>Hi everyone, welcome to my website. I&amp;rsquo;ve been meaning to make a website for a long time, but I&amp;rsquo;ve always struggled with making something that&amp;rsquo;s both good looking and functional as I&amp;rsquo;m not much of a frontend guy. Because of my general lack of interest in the frontend world, I had no idea that static site generators (SSGs) existed, which make the entire process of creating a website an order of magnitude easier.</description>
+    </item>
+  </channel>
+</rss>

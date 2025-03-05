@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on nukem.dev</title>
+    <link>http://localhost:1313/tags/development/</link>
+    <description>Recent content in Development on nukem.dev</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My old code sucks</title>
+      <link>http://localhost:1313/posts/skely-2/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/skely-2/</guid>
+      <description>Hi everyone! For the past week or so I&amp;rsquo;ve been revisiting an old project of mine called Skely, which is a tool I wrote to help use and manage project templates (a.k.a. skeletons). The last time I touched the project was right over a year ago, around when I first started learning rust, so the code quality was not great. Since then, I&amp;rsquo;ve become an much much better developer and I want to look at some of my old code, look at the new code, and analyze why the new code is better.</description>
+    </item>
+    <item>
+      <title>Pilot</title>
+      <link>http://localhost:1313/posts/pilot/</link>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pilot/</guid>
+      <description>Hi everyone, welcome to my website. I&amp;rsquo;ve been meaning to make a website for a long time, but I&amp;rsquo;ve always struggled with making something that&amp;rsquo;s both good looking and functional as I&amp;rsquo;m not much of a frontend guy. Because of my general lack of interest in the frontend world, I had no idea that static site generators (SSGs) existed, which make the entire process of creating a website an order of magnitude easier.</description>
+    </item>
+  </channel>
+</rss>
