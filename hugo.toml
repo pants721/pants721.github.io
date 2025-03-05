@@ -1,0 +1,81 @@
+baseURL = 'https://pants721.github.io/'
+languageCode = 'en-us'
+title = 'nukem.dev'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A Tech Blog"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Howdy!'
+homeIntroContent = """
+Hello! I'm Lucas (a.k.a. pants721). Welcome to my website :).
+This is the main place you can find my info, as well as [my various musings](/blog).
+I write software (usually in rust) with a particular interest in AI/ML.
+I also love volleyball, video games, and philosophy.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+[outputs]
+home = ['html', 'rss']
+section = ['html', 'rss']
+
+[[params.social]]
+name = "github"
+url = "https://github.com/pants721"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
+
+[[params.menu]]
+name = "contact"
+url = "/contact"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
