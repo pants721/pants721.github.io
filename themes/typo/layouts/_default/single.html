@@ -64,7 +64,7 @@
   {{/* Page content */}}
 
   <div class="single-content">
-    {{ .Content | safeHTML}}
+    {{ .Content }}
     {{ if .Site.Params.giscus.enable }}
     {{ if not .Params.disableComment }}
     {{ partial "comments.html" . }}

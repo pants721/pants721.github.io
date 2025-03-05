@@ -17,7 +17,7 @@
     {{ else }}
         <h1> {{ .Title }} </h1>
     {{ end }}
-    {{ .Content | safeHTML }}
+    {{ .Content }}
 
     {{ $paginationSize := 1}}
     {{ if (gt .Site.Params.paginationSize 0) }}
