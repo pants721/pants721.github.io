@@ -5,13 +5,25 @@
     {{ $dateFormat = .}}
     {{ end }}
 
+    {{ if .Param "pdf" }}
+    <p class="line-date">{{ .Date | time.Format "Jan 2006" }} </p>
+    {{ else }}
     <p class="line-date">{{ .Date | time.Format $dateFormat }} </p>
+    {{ end }}
 
     <div>
         <p class="line-title">
+            {{ if .Param "pdf" }}
+            {{ with .Param "pdf" }}
+            <a href='{{ path.Join "../" . }}'>
+                {{ $.Title }}
+            </a>
+            {{ end }}
+            {{ else }}
             <a href="{{ .RelPermalink }}">
                 {{ .Title }}
             </a>
+            {{ end }}
         </p>
 
         {{ if .Site.Params.listSummaries }}

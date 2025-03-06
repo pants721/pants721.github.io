@@ -8,6 +8,10 @@ intermediate french speaker.
 My major hobbies:
 - Computers & software
 - Volleyball (I'm a setter)
+- BJJ (white belt lol)
+- Super Smash Brothers Melee
+- Counter Strike
+- Leftist politics
 - Gym
 - Music (bass, guitar, piano, violin)
 - Minecraft speedrunning
@@ -15,20 +19,27 @@ My major hobbies:
 - Reading
 - Writing
 - Cars
-- Super Smash Brothers Melee
 
-Some of my more minor interests:
-- My favorite sports teams/players
+### Favorites
+- Sports teams/players
     - NFL: Eagles
     - NBA: Wizards & 76ers
     - Premier League: Spurs
     - Tennis: Roger Federer
     - NHL: Capitals
     - VNL: USA (and sekita)
-- Text editors and dev workflow
-- Politics when they're interesting
+- Text editor: neovim
+- Programming language: rust
+- Melee character: Captain Falcon
+- Philosopher: Nietzsche
+- Writer: Albert Camus
+- Book: The Alchemist
+- Musical Artist: Changes everday, but probably JPEGMAFIA or Kendrick Lamar
+- Instrument: Piano even though it's the one I'm the worst at
+- Video game: CS or Minecraft
 
-Devices:
+
+### Devices:
 - **Twinkpad**: Thinkpad t480s @ arch linux
 - **The Unreliable**: 13-inch 2019 Macbook Pro @ ubuntu
 - **Eddie**: Desktop (3070, amd ryzen 7, 48 gb ram) @ windows & arch 
