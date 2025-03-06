@@ -17,7 +17,7 @@
             {{ if .Param "url" }}
             {{ with .Param "url" }}
             {{ $url := . }}
-            <a href="{{ $url }}">
+            <a href="{{ $url }}" target="_blank">
             {{ end }}
             {{ .Title }}
             </a>
