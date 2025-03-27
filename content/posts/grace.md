@@ -2,8 +2,8 @@
 title = "on death"
 date = 2024-11-25
 draft = false
+[taxonomies]
 tags=["yap"]
-categories=["personal"]
 +++
 i dont think ill ever fully understand it.\
 \

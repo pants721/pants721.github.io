@@ -1,8 +1,8 @@
 +++
 title = "My old code sucks"
 date = 2024-03-11
+[taxonomies]
 tags=["development", "rust", "skely"]
-categories=["development"]
 +++
  
 Hi everyone! For the past week or so I've been revisiting an old project of

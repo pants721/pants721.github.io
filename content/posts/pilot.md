@@ -1,8 +1,8 @@
 +++
 title = "Pilot"
 date = 2024-03-03
+[taxonomies]
 tags=["yap", "development", "zola"]
-categories=["development"]
 +++
 
 Hi everyone, welcome to my website. I've been meaning to make a website for a

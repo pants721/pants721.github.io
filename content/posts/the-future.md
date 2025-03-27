@@ -1,8 +1,8 @@
 +++
 title = "The Terrifying Future"
 date = 2024-06-29
+[taxonomies]
 tags=["yap"]
-categories=["personal"]
 +++
 
 > "I saw my life branching out before me like the green fig tree in the story. From the tip of every branch, like a fat purple fig, a wonderful future beckoned and winked... I saw myself sitting in the crotch of this fig tree, starving to death, just because I couldn't make up my mind which of the figs I would choose. I wanted each and every one of them, but choosing one meant losing all the rest, and, as I sat there, unable to decide, the figs began to wrinkle and go black, and, one by one, they plopped to the ground at my feet." 
