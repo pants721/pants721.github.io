@@ -40,7 +40,7 @@ My major hobbies:
 
 
 ### Devices:
-- **Twinkpad**: Thinkpad t480s @ arch linux
+- **Twinkpad**: Thinkpad t480s @ ~~arch~~ fedora linux
 - **The Unreliable**: 13-inch 2019 Macbook Pro @ ubuntu
-- **Eddie**: Desktop (3070, amd ryzen 7, 48 gb ram) @ windows & arch 
+- **Eddie**: Desktop (3070, amd ryzen 7, 48 gb ram) @ windows & ~~arch~~ fedora
 - **Sisyphus**: Dell laptop @ arch linux
