@@ -1,5 +1,5 @@
 +++
-title = 'About'
+title = 'about'
 +++
 Hi, I'm Lucas Newcomb (a.k.a. pants721). I'm a programmer with lots and lots of 
 hobbies. I'm from the US. I'm half vietnamese. I'm a native english speaker and an 

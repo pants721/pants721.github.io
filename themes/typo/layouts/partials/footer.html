@@ -1,10 +1,10 @@
 {{ $showFooter := default true .Site.Params.showFooter }}
 {{ if $showFooter }}
     {{ if not .Site.Params.footerContent }}
-    <p>Powered by
-        <a href="https://gohugo.io/">Hugo</a>
-        and
-        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    <p>
+
+    © Lucas Newcomb 2025-{{ dateFormat "2006" now }}
+
     </p>
     {{ end }}
     

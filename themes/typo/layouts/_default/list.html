@@ -4,9 +4,9 @@
 
     {{ partial "breadcrumbs.html" . }}
 
-    {{ $tagsPage := eq .Title "Tags"}}
-    {{ $projectsPage := eq .Title "Projects"}}
-    {{ $postsPage := eq .Title "Posts"}}
+    {{ $tagsPage := eq .Title "tags"}}
+    {{ $projectsPage := eq .Title "projects"}}
+    {{ $postsPage := eq .Title "posts"}}
 
     {{ if $postsPage }}
     <div class="posts-title-div">

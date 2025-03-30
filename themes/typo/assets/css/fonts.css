@@ -1,4 +1,19 @@
 @font-face {
+    font-family: 'roboto';
+    src: url('/fonts/roboto-regular/roboto-regular.woff2?#iefix') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('/fonts/JetBrainsMono/JetBrainsMonoNLNerdFontMono-Regular.woff2') format('woff2');
+    font-weight: regular;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'Literata';
     src: url('/fonts/Literata/Literata-Light.woff2') format('woff2');
     font-weight: light;

@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'nukem.dev'
 theme = 'typo'
 
+capitalizeListTitles = false
+
 [taxonomies]
 tag = 'tags'
 
@@ -11,12 +13,14 @@ tag = 'tags'
 description = "Realhead Central"
 
 # Appearance settings
-theme = 'auto'
-colorPalette = 'gruvebox'
+theme = 'dark'
+# colorPalette = 'gruvebox'
 hideHeader = false
 
+hidePagination = true
+
 # Intro on main page, content is markdown
-homeIntroTitle = 'Howdy!'
+homeIntroTitle = 'howdy!'
 homeIntroContent = """
 Hello! I'm Lucas (a.k.a. pants721). Welcome to my website :).
 This is the main place you can find my info, as well as [my various musings](/posts).
@@ -34,10 +38,10 @@ homeCollection = 'posts'
 # Lists parameters
 paginationSize = 100
 listSummaries = true
-listDateFormat = '2 Jan 2006'
+listDateFormat = '1/2/2006'
 
 # Breadcrumbs
-breadcrumbs = true
+breadcrumbs = false
 
 [outputs]
 home = ['html', 'rss']
