@@ -149,6 +149,8 @@ dealers, I find the image of another human being crying and being forcefully
 detained distressing. Following this, The White House quote retweeted the post 
 with an AI-generated, Ghibli-style drawing of Ms. Basora-Gonzalez crying and 
 being detained. It was upsetting, to say the least.
+
+![A post from the official White House account featuring an AI-Generated, Ghibli-style image of Ms. Basora-Gonzalez](white-house.png)
   
 First of all, it is extremely unprofessional for the official Twitter account 
 of the executive office to make a mockery out of a situation that we should be 
