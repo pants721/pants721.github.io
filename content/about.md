@@ -10,6 +10,7 @@ My major hobbies:
 - Volleyball (I'm a setter)
 - BJJ (white belt lol)
 - Super Smash Brothers Melee
+- Watches
 - Counter Strike
 - Leftist politics
 - Gym
@@ -37,6 +38,7 @@ My major hobbies:
 - Musical Artist: Changes everday, but probably JPEGMAFIA or Kendrick Lamar
 - Instrument: Piano even though it's the one I'm the worst at
 - Video game: CS or Minecraft
+- Watch: Either the Casio A700W-1A my dad got for me or my Casioak
 
 
 ### Devices:
