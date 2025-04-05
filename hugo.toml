@@ -69,6 +69,10 @@ name = "essays"
 url = "/essays"
 
 [[params.menu]]
+name = "resume"
+url = "/lucas-newcomb-resume.pdf"
+
+[[params.menu]]
 name = "contact"
 url = "/contact"
 
@@ -79,7 +83,7 @@ url = "/contact"
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
-style = 'algol'
+style = 'gruvbox'
 
 # Giscus comments
 [params.giscus]
