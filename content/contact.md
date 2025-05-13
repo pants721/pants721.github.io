@@ -86,5 +86,5 @@ curl https://nukem.dev/lucasnewcomb.ssh.pub > lucasnewcomb.ssh.pub
 ```
 
 ```
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFm3K2XjxmBkWCJd9dZd6SXFewF8L+5/bbxF0kG2pZPk lucasnewcomb721@gmail.com
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII6qhz7P10cm/07dujrzLd46pDLRx8qHzXeHSQsJKhQK lucasnewcomb721@gmail.com
 ```
