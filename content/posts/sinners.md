@@ -59,7 +59,7 @@ A key part of the vampiric myth is that vampires cannot stand in direct sunlight
 without bursting into flames, making them creatures of the night. While
 immortality is appealing, choosing to become a vampire effectively bars one from
 interacting with the world and its people, all in the name of self-preservation.
-Based on the post-credit scene and the irish vampires finding Samuel, we can
+Based on the post-credit scene and the Irish vampires finding Samuel, we can
 clearly see that the vampires, while immortal, still yearn for how they were
 able to participate in culture and society when they were alive. Yes, vampires
 will live forever, but to what extent are they living? On the other hand, Samuel
@@ -69,7 +69,7 @@ outlives us, and the only immortality worthwhile is the echoes of our voices in
 our culture’s stories, songs, traditions, and art. Samuel’s rejection of literal
 immortality is not a surrender of life, but evidence of it. Samuel has chosen a
 finite life full of depth, connection, and experience over an eternal existence
-which lacks all of that. Samuel’s music will inspire others and be enjoyed for
+lacking all that. Samuel’s music will inspire others and be enjoyed for
 decades after he is gone, while the vampires will be alive forever with no
 ability to impact others as Samuel did. Ironically, Samuel has achieved
 immortality by rejecting it in the first place.
@@ -89,6 +89,6 @@ our days obsessing over death, life passes us by. But if we spend our days with
 the people we love dancing, making music, living out stories that will be told
 for years to come, we become immortal.
 
-Live well.
+Live well.\
 -Lucas
 
