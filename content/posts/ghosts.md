@@ -5,11 +5,6 @@ date = 2025-10-27
 [taxonomies]
 tags=["yap"]
 +++
-clarity always comes after. 
-a piece of knowledge ive picked up many times off the mantle of past mistakes 
-that i take for granted as the floor.
-it's really a shame because a little clarity would serve me well in my worst moments.
-
 i think im just a haunted house in my worst moments.
 the lights are flashing; the wood is creaky
 and theres always ghosts. its always ghosts.
@@ -22,7 +17,7 @@ but they have no face
 or if they did, it's been long forgotten
 the only thing to remember them by is fear
 
-its not just any fear
+its not just any fear.
 its a protective fear
 it doesnt feel like fear in the moment
 it feels like survival
