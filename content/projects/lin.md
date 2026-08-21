@@ -1,7 +1,7 @@
 +++
 title = "lin"
 summary = "Linear algebra library for the C programming language. Single header file library. Supports user-defined decimal types. Tested using [Unity](https://github.com/ThrowTheSwitch/Unity) and [Meson](https://mesonbuild.com/)." 
-weight = 1
+weight = 2
 [params]
     url = "https://github.com/pants721/lin_h"
 +++
