@@ -58,8 +58,8 @@ name = "projects"
 url = "/projects"
 
 [[params.menu]]
-name = "essays"
-url = "/essays"
+name = "writing"
+url = "/writing"
 
 [[params.menu]]
 name = "resume"
